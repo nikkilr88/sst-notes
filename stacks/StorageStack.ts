@@ -10,7 +10,16 @@ export function StorageStack({stack, app}: sst.StackContext) {
     primaryIndex: {partitionKey: 'userId', sortKey: 'noteId'},
   })
 
-  const bucket = new sst.Bucket(stack, 'Uploads')
+  const bucket = new sst.Bucket(stack, 'Uploads', {
+    cors: [
+      {
+        maxAge: '1 day',
+        allowedOrigins: ['*'],
+        allowedHeaders: ['*'],
+        allowedMethods: ['GET', 'PUT', 'POST', 'DELETE', 'HEAD'],
+      },
+    ],
+  })
 
   return {
     table,
