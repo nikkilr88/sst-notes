@@ -160,6 +160,15 @@
   optionalDependencies:
     graphql "^16.5.0"
 
+"@serverless-stack/static-site-env@^1.6.4":
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/@serverless-stack/static-site-env/-/static-site-env-1.6.4.tgz#37c2a98171043a8ca4e791ee35d4c416f6d06594"
+  integrity sha512-0lBi+HM4k4X/hI5D9plhCb9Dh+MMhMWMe/o2ISwwJPVGAPlics4nCiwz+3NuZMoK7RZi9CXqJ2a1geAuxt8TJQ==
+  dependencies:
+    cross-spawn "^7.0.3"
+    fs-extra "^9.0.1"
+    minimist "^1.2.5"
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"

@@ -13,6 +13,7 @@
   "devDependencies": {
     "@serverless-stack/cli": "^1.6.0",
     "@serverless-stack/resources": "^1.6.0",
+    "@serverless-stack/static-site-env": "^1.6.4",
     "@tsconfig/node16": "^1.0.3",
     "@types/aws-lambda": "^8.10.70",
     "@types/lodash": "^4.14.182",
